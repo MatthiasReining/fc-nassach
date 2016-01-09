@@ -192,30 +192,32 @@ fieldset[disabled] .btn-xl.active {
   background-color: #a2a2a2;
 }
 @media (min-width: 768px) {
-  .navbar-default {
-    background-color: transparent;
-    padding: 25px 0;
-    -webkit-transition: padding 0.3s;
-    -moz-transition: padding 0.3s;
-    transition: padding 0.3s;
-    border: none;
-  }
-  .navbar-default .navbar-brand {
-    font-size: 2em;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  .navbar-default .navbar-nav > .active > a {
-    border-radius: 3px;
-  }
-  .navbar-default.navbar-shrink {
-    background-color: #222222;
-    padding: 10px 0;
-  }
-  .navbar-default.navbar-shrink .navbar-brand {
-    font-size: 1.5em;
-  }
+  /*
+    .navbar-default {
+    	background-color: transparent;
+        padding: 25px 0;
+        -webkit-transition: padding 0.3s;
+        -moz-transition: padding 0.3s;
+        transition: padding 0.3s;
+        border: none;
+	    .navbar-brand {
+	        font-size: 2em;
+	        -webkit-transition: all 0.3s;
+	        -moz-transition: all 0.3s;
+	        transition: all 0.3s;
+	    }
+		.navbar-nav>.active>a {
+			border-radius: 3px;
+		}
+    }
+    .navbar-default.navbar-shrink {
+    	background-color: @gray-darkest;
+        padding: 10px 0;
+		.navbar-brand {
+	        font-size: 1.5em;
+	    }    
+	}
+    */
 }
 header {
   background-image: url('../img/header-bg.jpg');
